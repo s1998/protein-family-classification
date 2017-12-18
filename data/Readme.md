@@ -8,6 +8,7 @@ As there is no direct download link available on the website. These steps have t
    <img src="uniprot-columns.jpg" alt="Reference Image for columns" width="600"/>
 3. Then download the data in tab-separated format.
    <img src="uniprot-tab.jpg" alt="Reference Image for download" width="600" />
+4. Extract and rename the downloaded file as "uniprot-all.tab"
 
 At the time of writing this, the link contained 556,196 reviewed sequences, out of which about 3.7 lakh had non-null family name (filtered out by code).
 
