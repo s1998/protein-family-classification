@@ -2,10 +2,8 @@
 
 This repository aims at reproducing results from the [paper](https://cs224d.stanford.edu/reports/LeeNguyen.pdf). 
 The project uses tensorflow, scikit*, numpy, pandas and nltk,
-The model achieved f1 score of 0.83 finally.
+The model achieved f1 score of 0.83 on cv dataset.
 Dataset used is swissprot-kB and all sequences with length > 1000 were removed at the time of data filtering.
-
-<br>
 *used only for getting f1 score, can be imlplemented separately.
 
 
