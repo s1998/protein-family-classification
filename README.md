@@ -1,6 +1,6 @@
 # Protein Family Classification
 
-This repository aims at reproducing results from the <a url="https://cs224d.stanford.edu/reports/LeeNguyen.pdf"> paper </a> . 
+This repository aims at reproducing results from the [paper](https://cs224d.stanford.edu/reports/LeeNguyen.pdf). 
 The project uses tensorflow, scikit*, numpy, pandas and nltk,
 The model achieved f1 score of 0.83 finally.
 Dataset used is swissprot-kB and all sequences with length > 1000 were removed at the time of data filtering.
@@ -11,7 +11,7 @@ Dataset used is swissprot-kB and all sequences with length > 1000 were removed a
 
 ## Getting Started
 
-Download the dataset from <a url="http://www.uniprot.org/"> here </a>.
+Download the dataset from [here](http://www.uniprot.org/) .
 The file is SwissProt-kB.
 Using utils.py the data can be pre-processed and run the model.py finally.
 
@@ -32,7 +32,12 @@ Each epoch using Tesla-K80 took approx ~ 4 secs.
 
 ## Authors
 
-* Me and <a url="https://github.com/Udayraj123"> Uday </a>
+* [Me](https://github.com/s1998) and [Uday](https://github.com/Udayraj123). 
+
+
+## Similar repo
+
+* If interested, check out the repo for [Protein Secondary Structure Prediction](https://github.com/Udayraj123/protein-secondary-structure-prediction). 
 
 <!-- ## Acknowledgments
 
