@@ -322,7 +322,7 @@ def res_on_cv_data(model, data_cv):
 	print (c_metric(y_actual, y_predicted))
 
 if __name__=="__main__":
-	n_epochs = 10
+	n_epochs = 50
 	batch_size = 1000
 	hidden_units = 100
 	num_classes = 498
