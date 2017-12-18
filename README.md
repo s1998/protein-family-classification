@@ -9,7 +9,9 @@ Glove model was used to create embeddings.
 ## Getting Started
 
 Download the dataset from [here](http://www.uniprot.org/) .
-The file is SwissProt-kB.
+The dataset used in this experiment should have all the sequences reviewed (i.e 
+choose swissProt and not uniProt on the website.) 
+The dataset should be tab separated and should have 4th column as family name.
 Using utils.py the data can be pre-processed and run the model.py finally.
 
 ### Prerequisites
@@ -23,9 +25,29 @@ Using utils.py the data can be pre-processed and run the model.py finally.
 All the libraries can be installed using pip3.
 
 
+### Steps to run the model
+
+Do the following to run the model :
+
+1. chmod +x run.sh
+2. ./run.sh
+
+If there is some bug, check the script run.sh.
+Steps inside the script are as follows :
+1. Download dataset in data folder, rename it to uniprot-all.tab.
+2. Go to utils folder, run script1.py.
+3. Go to data folder, clone Glove and use "make" command.
+4. Run the GloVe model with approprite parameters 
+   (check run.sh line no 17, 19, 21, 23)
+5. Go to utils folder, run script2.py
+6. Run model.py
+
+This would run the model on the dataset.
+
 ## Train time
 
-Each epoch using Tesla-K80 took approx ~ 4 secs.
+Each epoch using Tesla-K80 took approx ~ 4 secs for batch size of 128.
+
 
 ## Authors
 
