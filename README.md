@@ -1,12 +1,10 @@
 # Protein Family Classification
 
-This repository aims at reproducing results from the [paper](https://cs224d.stanford.edu/reports/LeeNguyen.pdf). 
-The project uses tensorflow, scikit*, numpy, pandas and nltk,
+This repository aims at reproducing results from this [paper](https://cs224d.stanford.edu/reports/LeeNguyen.pdf). 
+The project uses tensorflow, scikit, numpy, pandas and nltk,
 The model achieved f1 score of 0.83 on cv dataset.
 Dataset used is swissprot-kB. Families with < 200 examples and sequences with length > 1000 were removed at the time of preprocessing.
 Glove model was used to create embeddings.
-*used only for getting f1 score, can be imlplemented separately.
-
 
 ## Getting Started
 

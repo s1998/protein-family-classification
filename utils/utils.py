@@ -2,7 +2,7 @@ import os
 import pandas as pd
 import numpy as np
 from collections import Counter
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 import pickle
 from nltk import ngrams
 
@@ -136,7 +136,7 @@ def save_familywise_db(min_no_of_seq = 200):
 		total_counter += len(fam_seq)				
 		print(count_fam, len(fam_seq), count_fam*100/len(fam_seq),fam)
 
-	print(min_no_of_seq, " : ", counter, total_counter, counter*100/total_counter)
+	print(min_no_of_seq, " : ", counter, total_counter, counter*100/1 + total_counter)
 	print(no_of_families)
 
 	counts.sort()
@@ -559,9 +559,9 @@ def padding_all_batches(min_no_of_seq = 200):
 
 if __name__=="__main__":
 	# Ran these once, so files are saved 
-	# seq_merger_one_file()
+	seq_merger_one_file()
 	# seq_to_vec_mini_batches(200)
-	padding_all_batches(200)
+	# padding_all_batches(200)
 	# save_familywise_db()
 	# save_familywise_db(100)
 	# save_familywise_db(50)
