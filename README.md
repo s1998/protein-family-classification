@@ -2,7 +2,7 @@
 
 This repository aims at reproducing results from this [paper](https://cs224d.stanford.edu/reports/LeeNguyen.pdf). 
 The project uses tensorflow, scikit, numpy, pandas and nltk,
-The model achieved f1 score of 0.83 on cv dataset.
+The model achieved F1 score of 0.83 on cv dataset.
 Dataset used is swissprot-kB. Families with < 200 examples and sequences with length > 1000 were removed at the time of preprocessing.
 Glove model was used to create embeddings.
 
@@ -22,7 +22,7 @@ Using utils.py the data can be pre-processed and run the model.py finally.
 4. Pandas
 5. NLTK
 
-All the libraries can be installed using pip3.
+All the libraries can be installed using pip3. A shell script to install all dependecies would be available in this repository.
 
 
 ### Steps to run the model
@@ -37,7 +37,7 @@ Steps inside the script are as follows :
 1. Download dataset in data folder, rename it to uniprot-all.tab.
 2. Go to utils folder, run script1.py.
 3. Go to data folder, clone Glove and use "make" command.
-4. Run the GloVe model with approprite parameters 
+4. Run the GloVe model with appropriate parameters 
    (check run.sh line no 17, 19, 21, 23)
 5. Go to utils folder, run script2.py
 6. Run model.py
@@ -51,7 +51,7 @@ Each epoch using Tesla-K80 took approx ~ 4 secs for batch size of 128.
 
 ## Authors
 
-* [Me](https://github.com/s1998) and [Uday](https://github.com/Udayraj123). 
+* [Sudhanshu Ranjan](https://github.com/s1998) and [Udayraj Deshmukh](https://github.com/Udayraj123). 
 
 
 ## Similar repo
