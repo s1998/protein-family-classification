@@ -8,14 +8,6 @@ Glove model was used to create embeddings.
 
 ## Getting Started
 Downloading the dataset - For details checkout the readme file in [data directory](https://github.com/s1998/protein-family-classification/blob/master/data/)
-1. Goto this link : <a href="http://www.uniprot.org/uniprot/?query=*&fil=reviewed%3Ayes#customize-columns">http://www.uniprot.org/uniprot/?query=*&fil=reviewed%3Ayes#customize-columns</a>
-2. Choose the following columns from the table : Entry, Sequence, Length, Protein families
-   <img src="data/uniprot-columns.jpg" alt="Reference Image for columns" width="500"/>
-3. Then download the data in tab-separated format.
-   <img src="data/uniprot-tab.jpg" alt="Reference Image for download" width="500" />
-4. Extract and rename the downloaded file as "uniprot-all.tab"
-
-Important : The dataset should be tab separated and should have 4th column as family name.
 
 ### Prerequisites
 
