@@ -39,7 +39,7 @@ Steps inside the script are as follows :
 
 This would run the model on the dataset.
 
-## Train time
+### Train time
 
 Each epoch using Tesla-K80 took approx ~ 4 secs for batch size of 128.
 
